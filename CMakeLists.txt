@@ -5,5 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 
-# Nome do executável e lista de arquivos-fonte
-add_executable(ex9 27.03/ex9.c)
+add_executable(ex15 27.03/ex5.c)

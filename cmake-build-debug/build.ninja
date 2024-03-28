@@ -41,38 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Pichau/Desktop/exercicios-c/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ex9
+# Object build statements for EXECUTABLE target ex15
 
 
 #############################################
-# Order-only phony target for ex9
+# Order-only phony target for ex15
 
-build cmake_object_order_depends_target_ex9: phony || CMakeFiles/ex9.dir
+build cmake_object_order_depends_target_ex15: phony || CMakeFiles/ex15.dir
 
-build CMakeFiles/ex9.dir/27.03/ex9.c.obj: C_COMPILER__ex9_unscanned_Debug C$:/Users/Pichau/Desktop/exercicios-c/27.03/ex9.c || cmake_object_order_depends_target_ex9
-  DEP_FILE = CMakeFiles\ex9.dir\27.03\ex9.c.obj.d
+build CMakeFiles/ex15.dir/27.03/ex5.c.obj: C_COMPILER__ex15_unscanned_Debug C$:/Users/Pichau/Desktop/exercicios-c/27.03/ex5.c || cmake_object_order_depends_target_ex15
+  DEP_FILE = CMakeFiles\ex15.dir\27.03\ex5.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Pichau/Desktop/exercicios-c/.
-  OBJECT_DIR = CMakeFiles\ex9.dir
-  OBJECT_FILE_DIR = CMakeFiles\ex9.dir\27.03
+  OBJECT_DIR = CMakeFiles\ex15.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex15.dir\27.03
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ex9
+# Link build statements for EXECUTABLE target ex15
 
 
 #############################################
-# Link the executable ex9.exe
+# Link the executable ex15.exe
 
-build ex9.exe: C_EXECUTABLE_LINKER__ex9_Debug CMakeFiles/ex9.dir/27.03/ex9.c.obj
+build ex15.exe: C_EXECUTABLE_LINKER__ex15_Debug CMakeFiles/ex15.dir/27.03/ex5.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ex9.dir
+  OBJECT_DIR = CMakeFiles\ex15.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ex9.exe
-  TARGET_IMPLIB = libex9.dll.a
-  TARGET_PDB = ex9.exe.dbg
+  TARGET_FILE = ex15.exe
+  TARGET_IMPLIB = libex15.dll.a
+  TARGET_PDB = ex15.exe.dbg
 
 
 #############################################
@@ -100,7 +100,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ex9: phony ex9.exe
+build ex15: phony ex15.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,7 +110,7 @@ build ex9: phony ex9.exe
 #############################################
 # Folder: C:/Users/Pichau/Desktop/exercicios-c/cmake-build-debug
 
-build all: phony ex9.exe
+build all: phony ex15.exe
 
 # =============================================================================
 # Built-in targets
