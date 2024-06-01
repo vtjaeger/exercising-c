@@ -11,9 +11,9 @@ int* decimalParaBinario(int numero) {
     for(int i = 7; i >= 0; i--) {
         int resto;
         resto = numero % 2;
+        printf("%d", resto);
         bits[i] = resto;
         numero /= 2;
-
     }
     return bits;
 }
@@ -22,6 +22,7 @@ int main() {
     int x;
     scanf("%d", &x);
     int* bits = decimalParaBinario(x);
+    printf("\n\n");
     for(int i = 0; i < 8; i++) {
         printf("%d", bits[i]);
     }
